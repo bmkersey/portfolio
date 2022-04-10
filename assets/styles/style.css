@@ -63,3 +63,52 @@ header nav ul li a {
 /*end header styling
 
 /*begin hero styling*/
+
+.hero {
+    background-image: url(../images/bluewall.jpg);
+    background-size: cover;
+    background-position: fixed;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    height:200px ;
+}
+
+.hero h2 {
+    display: flex;
+    align-self: flex-end;
+    margin: 5px 50px 20px 0;
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+    padding: 5px;   
+}
+/*end hero styling*/
+
+/*begin about me section styling*/
+
+.aboutme {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+
+.aboutme h3 {
+    box-sizing: border-box;
+    font-size: 36px;
+    color: var(--main-color);
+    border-right: 3px solid var(--main-color);
+    margin: 15px 10px 15px 40px;
+    padding: 10px;
+    flex: 1;
+    height:200px;
+    
+}
+
+.aboutme p {
+    flex: 5;
+    margin: 15px 35px 10px 10px;
+    line-height: 1.5;
+}
+
