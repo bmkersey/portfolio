@@ -111,4 +111,57 @@ header nav ul li a {
     margin: 15px 35px 10px 10px;
     line-height: 1.5;
 }
+/*end about me styling*/
 
+/*Start Work section styling*/
+
+.Work {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+.Work h3 {
+    /*box-sizing: border-box;*/
+    font-size: 36px;
+    color: var(--main-color);
+    border-right: 4px solid var(--main-color);
+    margin: 15px 40px 15px 40px;
+    padding: 10px;
+    height:200px;
+    flex: 1;
+    
+}
+.workcardcontainer {
+    display: flex;
+    flex: 5;
+}
+
+.surf {
+    display: flex;
+    background-image: url(../images/waves.svg);
+    width: 80%;
+    height: 70%;
+       
+}
+
+.surf h4 {
+    
+    
+    font-size: 30px;
+    color: var(--accent-color);
+    background-color: var(--secondary-color);
+    
+}
+
+.surf p {
+    
+    
+    
+    color: var(--accent-color);
+    background-color: var(--secondary-color);
+    
+    
+}
