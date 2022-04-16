@@ -72,6 +72,7 @@ header nav ul li a {
     justify-content: right;
     flex-wrap: wrap;
     height:200px ;
+    box-shadow: inset 0 0 0 1000px rgba(68, 88, 118,.4); 
 }
 
 .hero h2 {
@@ -141,32 +142,123 @@ header nav ul li a {
 }
 
 .surf {
-    background-image: url(./assets/images/02-portfolio-4.jpg);
-    background-size: cover;
+    background-image: url(../images/surf.jpg);
+    background-position: left;
     display: flex;
-    flex: 1 100%;
-    height: 400px;
-    width: 600px;
-    margin-right: 30px;     
+    flex: 0 100%;
+    height: 350px;
+    max-width: 800px;
+    margin-right: 30px; 
+    justify-content: flex-end; 
+    flex-direction: column;
+    border: 4px solid var(--secondary-color);
+    box-shadow: inset 0 0 0 1000px rgba(68, 88, 118,.4);     
 }
 
+.surf a {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+.container{
+    background-color: var(--secondary-color);
+    height: fit-content;
+    width: fit-content;
+    margin-bottom: 20px;
+    
+       
+}
 
 
 .surf h4 {     
     font-size: 30px;
     color: var(--accent-color);
-    /*background-color: var(--secondary-color);*/
-    
+    padding-right: 3px;
+       
 }
 
 
 
-.surf p {
-    
-    
-    
+.surf p {    
+    color: var(--accent-color);  
+    padding-bottom: 10px;  
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+    margin: 20px 0 20px 0;
+  }
+
+
+  .led {
+    background-image: url(../images/led.jpg);
+    display: flex;
+    flex: 0 50%;
+    height: 150px;
+    max-width: 350px;
+    justify-content: flex-end;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(68, 88, 118,.4);
+    border: 4px solid var(--secondary-color);
+    margin-right: 20px;
+}
+
+.hover:hover{
+    box-shadow: none;
+}
+
+.led h4, .led p, .calc h4, .calc p, .runbuddy h4, .runbuddy p, .pastel h4, .pastel p {
     color: var(--accent-color);
-    background-color: var(--secondary-color);
-    
-    
 }
+
+.calc{
+    background-image: url(../images/calc.jpg);
+    background-position: 70% 50%;
+    display: flex;
+    flex: 0 50%;
+    height: 150px;
+    max-width: 350px;
+    justify-content: flex-end;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(68, 88, 118,.4);
+    border: 4px solid var(--secondary-color);
+    margin-left: 20px;
+}
+
+.pastel{
+    background-image: url(../images/pastel.jpg);
+    background-position: 40% 50%;
+    display: flex;
+    flex: 0 50%;
+    height: 150px;
+    max-width: 350px;
+    justify-content: flex-end;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(68, 88, 118,.4);
+    border: 4px solid var(--secondary-color);
+    margin-right: 20px;
+
+}
+
+.runbuddy{
+    background-image: url(../images/runbuddy.jpg);
+    background-position: 70% 50%;
+    display: flex;
+    flex: 0 50%;
+    height: 150px;
+    max-width: 350px;
+    justify-content: flex-end;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(68, 88, 118,.4);
+    border: 4px solid var(--secondary-color);
+    margin-left: 20px;
+}
+
