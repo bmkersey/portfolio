@@ -159,7 +159,7 @@ header nav ul li a {
     box-shadow: inset 0 0 0 1000px rgba(68, 88, 118,.4);     
 }
 
-.surf a {
+.surf a, .led a, .pastel a, .calc a, .runbuddy a {
     width: 100%;
     height: 100%;
     top: 0;
