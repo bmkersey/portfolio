@@ -1,8 +1,8 @@
 /*color variables*/
 :root {
-    --main-color: #445876;
-    --secondary-color: #92cccd;
-    --accent-color: #31343d;
+    --main-color: #000000;
+    --secondary-color: #16079b;
+    --accent-color: #ffffff;
 }
 
 * {
@@ -73,10 +73,16 @@ header nav ul li a {
     background-size: cover;
     background-position: fixed;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     flex-wrap: wrap;
     height:200px ;
     box-shadow: inset 0 0 0 1000px rgba(68, 88, 118,.4); 
+}
+
+#bk{
+    display: flex;
+    align-self: flex-start;
+    height: 200px;
 }
 
 .hero h2 {
@@ -304,7 +310,7 @@ header nav ul li a {
 
 
 
- footer ul {
+footer ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -316,7 +322,7 @@ header nav ul li a {
 
 footer a {
     text-decoration: none;
-    color: var(--accent-color);
+    color: var(--main-color);
     border-bottom: 4px solid var(--main-color);
 }
 
@@ -332,7 +338,7 @@ footer ul li a {
 
 .list-section-phone {
     font-weight: bold;
-    color: var(--accent-color);
+    color: var(--main-color);
     border-bottom: 4px solid var(--main-color);
     padding: 10px 15px;
     font-size: 23px;
